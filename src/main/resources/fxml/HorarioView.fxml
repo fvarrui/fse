@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+	<center>
+		<TableView fx:id="horarioTable" editable="true" BorderPane.alignment="CENTER">
+			<columns>
+            <TableColumn fx:id="horaColumn" editable="false" minWidth="50.0" prefWidth="50.0" sortable="false" text="Hora" />
+				<TableColumn fx:id="lunesColumn" prefWidth="75.0" sortable="false" text="Lunes" />
+				<TableColumn fx:id="martesColumn" prefWidth="75.0" sortable="false" text="Martes" />
+				<TableColumn fx:id="miercolesColumn" prefWidth="75.0" sortable="false" text="Miércoles" />
+				<TableColumn fx:id="juevesColumn" prefWidth="75.0" sortable="false" text="Jueves" />
+				<TableColumn fx:id="viernesColumn" prefWidth="75.0" sortable="false" text="Viernes" />
+			</columns>
+			<columnResizePolicy>
+				<TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+			</columnResizePolicy>
+		</TableView>
+	</center>
+</BorderPane>

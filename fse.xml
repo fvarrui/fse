@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<centro denominacion="IES Domingo Pérez Minik" fin="2021-06-30" inicio="2020-09-01">
+    <festivos>
+        <dia>2021-02-02</dia>
+    </festivos>
+    <grupos>
+        <grupo denominacion="Administración de Sistemas Informáticos en Red" nivel="CFGS" id="ASIR1">
+            <asignaturas>
+                <asignatura>
+                    <sesiones>
+                        <sesion dia="LUNES" hora="1"/>
+                        <sesion dia="LUNES" hora="4"/>
+                        <sesion dia="LUNES" hora="5"/>
+                        <sesion dia="LUNES" hora="6"/>
+                        <sesion dia="MARTES" hora="1"/>
+                        <sesion dia="MARTES" hora="2"/>
+                        <sesion dia="MARTES" hora="3"/>
+                        <sesion dia="MARTES" hora="4"/>
+                        <sesion dia="MARTES" hora="6"/>
+                        <sesion dia="MIERCOLES" hora="1"/>
+                        <sesion dia="MIERCOLES" hora="2"/>
+                        <sesion dia="MIERCOLES" hora="3"/>
+                        <sesion dia="MIERCOLES" hora="4"/>
+                        <sesion dia="JUEVES" hora="1"/>
+                        <sesion dia="JUEVES" hora="5"/>
+                        <sesion dia="JUEVES" hora="6"/>
+                        <sesion dia="VIERNES" hora="1"/>
+                        <sesion dia="VIERNES" hora="2"/>
+                        <sesion dia="VIERNES" hora="3"/>
+                        <sesion dia="VIERNES" hora="4"/>
+                        <sesion dia="VIERNES" hora="5"/>
+                        <sesion dia="VIERNES" hora="6"/>
+                    </sesiones>
+                </asignatura>
+                <asignatura denominacion="Implantación de Sistemas Operativos" id="IDP">
+                    <profesor>fvarrio</profesor>
+                    <sesiones>
+                        <sesion dia="JUEVES" hora="2"/>
+                        <sesion dia="JUEVES" hora="3"/>
+                        <sesion dia="JUEVES" hora="4"/>
+                        <sesion dia="LUNES" hora="2"/>
+                        <sesion dia="LUNES" hora="3"/>
+                        <sesion dia="MARTES" hora="5"/>
+                        <sesion dia="MIERCOLES" hora="5"/>
+                        <sesion dia="MIERCOLES" hora="6"/>
+                    </sesiones>
+                </asignatura>
+            </asignaturas>
+        </grupo>
+        <grupo denominacion="Administración de Sistemas Informáticos en Red" nivel="CFGS" id="ASIR2">
+            <asignaturas>
+                <asignatura>
+                    <sesiones>
+                        <sesion dia="LUNES" hora="1"/>
+                        <sesion dia="LUNES" hora="2"/>
+                        <sesion dia="LUNES" hora="3"/>
+                        <sesion dia="LUNES" hora="4"/>
+                        <sesion dia="LUNES" hora="5"/>
+                        <sesion dia="LUNES" hora="6"/>
+                        <sesion dia="MARTES" hora="1"/>
+                        <sesion dia="MARTES" hora="2"/>
+                        <sesion dia="MARTES" hora="3"/>
+                        <sesion dia="MARTES" hora="4"/>
+                        <sesion dia="MARTES" hora="5"/>
+                        <sesion dia="MARTES" hora="6"/>
+                        <sesion dia="MIERCOLES" hora="1"/>
+                        <sesion dia="MIERCOLES" hora="2"/>
+                        <sesion dia="MIERCOLES" hora="3"/>
+                        <sesion dia="MIERCOLES" hora="4"/>
+                        <sesion dia="MIERCOLES" hora="5"/>
+                        <sesion dia="MIERCOLES" hora="6"/>
+                        <sesion dia="JUEVES" hora="1"/>
+                        <sesion dia="JUEVES" hora="2"/>
+                        <sesion dia="JUEVES" hora="3"/>
+                        <sesion dia="JUEVES" hora="4"/>
+                        <sesion dia="JUEVES" hora="5"/>
+                        <sesion dia="JUEVES" hora="6"/>
+                        <sesion dia="VIERNES" hora="1"/>
+                        <sesion dia="VIERNES" hora="2"/>
+                        <sesion dia="VIERNES" hora="3"/>
+                        <sesion dia="VIERNES" hora="4"/>
+                        <sesion dia="VIERNES" hora="5"/>
+                        <sesion dia="VIERNES" hora="6"/>
+                    </sesiones>
+                </asignatura>
+            </asignaturas>
+        </grupo>
+    </grupos>
+    <profesores>
+        <profesor apellidos="Vargas Ruiz" nombre="Francisco" id="fvarrio">
+            <asignaturas>
+                <asignatura>IDP</asignatura>
+            </asignaturas>
+            <faltas/>
+            <tutorias/>
+        </profesor>
+    </profesores>
+</centro>

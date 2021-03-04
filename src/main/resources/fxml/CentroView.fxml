@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane fx:id="centroPane" minHeight="0.0" minWidth="0.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<GridPane hgap="5.0" vgap="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+			<rowConstraints>
+				<RowConstraints minHeight="10.0" prefHeight="30.0" />
+				<RowConstraints minHeight="10.0" prefHeight="30.0" />
+				<RowConstraints minHeight="10.0" prefHeight="30.0" />
+			</rowConstraints>
+			<columnConstraints>
+				<ColumnConstraints minWidth="-Infinity" />
+				<ColumnConstraints fillWidth="false" hgrow="ALWAYS" minWidth="10.0" />
+			</columnConstraints>
+			<children>
+				<Label text="Denominación:" />
+				<TextField fx:id="denominacionText" prefColumnCount="30" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" />
+				<Label text="Inicio de curso:" GridPane.rowIndex="1" />
+				<Label text="Fin de curso:" GridPane.rowIndex="2" />
+				<DatePicker fx:id="inicioCursoDate" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+				<DatePicker fx:id="finCursoDate" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+			</children>
+			<padding>
+				<Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+			</padding>
+		</GridPane>
+	</children>
+</AnchorPane>

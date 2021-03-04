@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+	<center>
+		<TabPane prefHeight="100.0" tabClosingPolicy="UNAVAILABLE"
+			BorderPane.alignment="CENTER">
+			<tabs>
+				<Tab text="Centro" fx:id="centroTab" />
+				<Tab text="Festivos" fx:id="festivosTab" />
+				<Tab text="Grupos" fx:id="gruposTab" />
+				<Tab text="Profesores" fx:id="profesoresTab" />
+				<Tab text="Horas" fx:id="horasTab" />
+			</tabs>
+		</TabPane>
+	</center>
+</BorderPane>
